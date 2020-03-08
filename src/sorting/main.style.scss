@@ -25,19 +25,19 @@ height: 100vh;
                 color: rgb(231, 22, 196) !important;
             }
 
-            &.sorting{
-                pointer-events:none;
-                color: red !important;
-                opacity: 0.6;
 
-            }
 
         }
 
 
     }
 }
+.sorting{
+    pointer-events:none !important;
+    color: red !important;
+    opacity: 0.6;
 
+}
 //buttons
 .controlButton{
     width: auto;
@@ -72,7 +72,7 @@ height: 100vh;
     font-size: 1.1rem;
 }
 
-.balls{
+.bars{
     width: 1000px;
     height: 25rem;
     margin: 0 auto;
@@ -81,11 +81,12 @@ height: 100vh;
     display: flex;
     border-bottom: 1px solid #000;
 
-    & .ball{
+    & .bar{
         background-color: #d20ce4;
         color: #ffffff;
        // border-radius: 50%;
         display: flex;
+        margin-left: 10px;
         justify-content: center;
         align-items: center;
         font-size: 1.2rem;
