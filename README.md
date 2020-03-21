@@ -1,5 +1,5 @@
 # VISUALIZE COMPLEX ALGORITHMS
-Live Website : https://gallant-ritchie-8c4abd.netlify.com/.
+Live Website : https://algorithm-visualizr.netlify.com/.
 
 Hello everyone , welcome to my repository here you can visualize almost every famous algorithms related to #sorting .
 
